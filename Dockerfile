@@ -1,11 +1,11 @@
 FROM node:alpine as BUILD_IMAGE
 WORKDIR /app
-COPY package.json yarn.lock ./
+COPY package.json ./
 # install dependencies
-RUN yarn install --frozen-lockfile
+RUN npm install --frozen-lockfile
 COPY . .
 # build
-RUN yarn build
+RUN npm run build
 # remove dev dependencies
 RUN npm prune --production
 FROM node:alpine
@@ -16,4 +16,4 @@ COPY --from=BUILD_IMAGE /app/node_modules ./node_modules
 COPY --from=BUILD_IMAGE /app/.next ./.next
 COPY --from=BUILD_IMAGE /app/public ./public
 EXPOSE 80
-CMD ["yarn", "start"]
+CMD ["npm", "run start"]
