@@ -17,4 +17,4 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           pwd
-          sh $HOME/projects/deployments/deploy-personal-portfolio.sh
+          sh $HOME/projects/deployments/deploy-personal-profile.sh
