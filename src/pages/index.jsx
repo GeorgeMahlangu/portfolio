@@ -251,42 +251,46 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          George Mahlangu - Full Software Developer, and Automation Test
+          Engineer
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m George, a Software Developer and Automation test engineer based
+            in Pretoria Gauteng. I am an information technology graduate with a
+            robust problem-solving skiils and proven experience in creating and
+            designing software in an agile-driven enviroment."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Fullstack Software Developer, and Test Automation Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m George, a Software Developer and Automation Test Engineer based
+            in Pretoria Gauteng. I am an information technology graduate with a
+            robust problem-solving skiils and proven experience in creating and
+            designing software in an agile-driven enviroment.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/georgiie_lee"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/georgiie.lee"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/GeorgeMahlangu"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/george-m-6ab043b4/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
