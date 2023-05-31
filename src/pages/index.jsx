@@ -12,6 +12,8 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
+
+import logoIoco from '@/images/logos/ioco2.png'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -139,35 +141,42 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'IOCO Digital',
+      title: 'Test Automation Engineer',
+      logo: logoIoco,
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Itthynk Smart Solutions',
+      title: 'Software Developer',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: '2022',
+      end: '2022',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'TUT',
+      title: 'Programming Subject Tutor',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: '2021',
+      end: '2022',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
+      company: 'N8tiv Technologies',
+      title: 'Web Developer',
       logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2020',
+      end: '2021',
+    },
+    {
+      company: 'Razacon Ecommerce',
+      title: 'Web Developer',
+      logo: logoStarbucks,
+      start: '2019',
+      end: '2019',
     },
   ]
 
@@ -211,7 +220,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="favicon.ico"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
