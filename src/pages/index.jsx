@@ -270,9 +270,13 @@ export default function Home({ articles }) {
         <meta
           name="description"
           content="I’m George, a Software Developer and Automation test engineer based
-            in Pretoria Gauteng. I am an information technology graduate with a
-            robust problem-solving skiils and proven experience in creating and
-            designing software in an agile-driven enviroment."
+            in Pretoria Gauteng. I am a quality-focused test automation
+            analyst with robust problem-solving
+            communication skills and proven experience
+            in creating and implementing test automation
+            frameworks and conducting functional and
+            performance testing. I do Web Development During weekends
+            ."
         />
       </Head>
       <Container className="mt-9">
