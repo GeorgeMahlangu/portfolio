@@ -2,9 +2,6 @@ FROM node:alpine as BUILD_IMAGE
 WORKDIR /app
 COPY package.json ./
 
-#Install curl for healthchecks
-RUN apt-get update && apt-get install -y curl
-
 # install dependencies
 RUN npm install --frozen-lockfile
 COPY . .
